@@ -1,0 +1,67 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>KADATIH |CONTACT US</title>
+	<link rel="stylesheet" type="text/css" href="styleS.css" />
+</head>
+<body>
+	<nav class="navbar">  
+        <img class="logo" src="./image/logo.jpeg"  alt=""><a href="home.html"></a>
+        <a href="" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+               <li><a href="index.html" class="fo">Home</a></li>
+               <li><a href="about us.html" class="fo">About</a></li>
+               <li><a href="contact.html" class="fo">Contact</a></li>
+            </ul>
+        </div>
+       </nav>
+	<div class="contact-form">
+        <h1>Contact Us</h1>
+		<form id="contact-form" method="POST" action="form-to-email.php">
+
+			<div class="control-group">
+				<label>Your Name</label>
+				<input class="fullname" type="text" name="fullname" />
+			</div>
+
+			<div class="control-group">
+				<label>Email</label>
+				<input class="email" type="text" name="email" />
+			</div>
+
+			<div class="control-group">
+				<label>Phone (optional)</label>
+				<input class="phone" type="text" name="phone" />
+			</div>
+
+			<div class="control-group">
+				<label>Message</label>
+				<textarea class="message" name="message"></textarea>
+			</div>
+
+			<div id="errors"></div>
+
+			<div class="control-group no-margin">
+				<input type="submit" name="submit" value="Submit" id="submit" />
+			</div>
+
+		</form>
+        <div id='msg_submitting'><h2>Submitting ...</h2></div>
+        <div id='msg_submitted'><h2>Thank you !<br> The form was submitted Successfully.</h2></div>
+	</div>
+
+
+	
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/additional-methods.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+
+</body>
+</html>

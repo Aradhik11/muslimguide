@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(128, 123, 123, 0.849);
+    margin: 0;
+}
+/*Header*/
+header{
+    background: #35353af3;
+    color: #ffff;
+    padding: 35px;
+    min-height:25px;
+    border-bottom: #e8491d 3px solid;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+header a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 250px;
+    
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: right;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h4{
+    margin: 0;
+    font-size: 25px;
+}
+
+header #branding h4{
+    margin: 0;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+     font-weight: bold;   
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    color:red;
+    padding: 7px;
+    background-color:black;
+}
+.brand-tittle{
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-weight: bolder;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li .fo{
+    text-decoration: none;
+    color:red;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover{
+    background-color: white;
+}
+.toggle-button{
+    position: absolute;
+    top: 0.90rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33px;
+    height: 10px;
+}
+.toggle-button .bar{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}

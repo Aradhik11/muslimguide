@@ -1,0 +1,71 @@
+
+body{
+    background-image: url(./image/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    color:black;
+    padding: 7px;
+    background-color: black;
+}
+.brand-tittle{
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-weight: bolder;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li .fo{
+    text-decoration: none;
+    color:red;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover{
+    background-color: white;
+}
+.toggle-button{
+    position: absolute;
+    top: 0.90rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33px;
+    height: 10px;
+}
+.toggle-button .bar{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.image-container{
+    margin: 20px;
+}
+h2{
+    color: deeppink;
+}
+p{
+    color: white;
+}
+    
